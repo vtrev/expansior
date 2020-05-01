@@ -1,0 +1,702 @@
+/* todo cleanup */
+
+/*============================================ Global styles ==============================================*/
+
+
+.network-image img {
+    width: 100%;
+}
+
+
+.show-table {
+    display: none;
+}
+
+.more-text,
+.read-less {
+    display: none;
+}
+
+.read-more:focus {
+    display: none;
+}
+
+.read-more:focus+.read-less,
+.read-more:focus+.read-less+.more-text {
+    display: inline-block;
+}
+
+#incentiveplan-section table {
+    width: 70%;
+    text-align: center;
+}
+
+
+.incentive-levels img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.members-image img {
+    max-height: 350px;
+    /* border: 2px solid #00A887; */
+    border-radius: 50%;
+}
+
+.members h4 {
+    padding-bottom: 25px;
+}
+
+#incentiveplan-section h5 {
+    font-size: 1.5rem;
+}
+
+.spacer {
+    height: 35px;
+}
+
+#incentiveplan-section b,
+.expansior-green,
+#main b,
+#contact-form .input-field .prefix {
+    color: #00A887 !important;
+}
+
+/* #incentiveplan-section table,
+#incentiveplan-section td {
+    border-right: 1px solid black;
+    border: 1px solid black;
+} */
+
+
+#incentiveplan-section th,
+#incentiveplan-section td {
+    /* border-right: 1px solid black; */
+    background-color: #00A887;
+}
+
+#incentiveplan-section th {
+    color: white;
+}
+
+#incentiveplan-section tr:nth-child(odd) td {
+    color: grey;
+    background-color: #dddddd;
+}
+
+#incentiveplan-section tr td {
+    color: grey;
+    background-color: white;
+
+    /* border-right: 1px solid black;
+    background-color: #00A887; */
+}
+
+
+
+.parallax-container .parallax img {
+    width: 100%;
+}
+
+footer h4 {
+    color: white !important;
+}
+
+h4,
+h5,
+h6,
+#refer-ligitimacy {
+    color: #757575;
+}
+
+#join-main q {
+    font-size: 21px;
+}
+
+#join-main td img {
+    position: relative;
+    top: 5px;
+}
+
+.btn {
+    background-color: #00A887;
+}
+
+.user-view img {
+    width: 80%;
+    position: relative;
+    left: 6px;
+}
+
+.sub-q {
+    font-size: 18px;
+}
+
+#join-cards {
+    background-color: #00A887;
+
+}
+
+#main-how {
+    background-color: #00A887;
+    color: white;
+
+}
+
+#main-how h4 {
+    color: white !important;
+}
+
+#join-cards h,
+#join-cards p,
+#join-cards q {
+    color: white;
+}
+
+section {
+    font-family: Overpass,
+        Dosis;
+
+}
+
+#footer q {
+    font-size: 23px;
+}
+
+#wecareaboutheading {
+    position: relative;
+    top: 15px;
+}
+
+.footer-bar-link {
+    float: right;
+}
+
+tr {
+    border-bottom: none;
+}
+
+#copyright {
+    padding-top: 19px;
+}
+
+#bottom-bar a {
+    color: white;
+}
+
+#more {
+    display: none;
+}
+
+#refer-ligitimacy img {
+    height: 150px;
+    width: 100%;
+}
+
+#home-message form {
+    height: 400px;
+}
+
+
+#contact,
+.find-us h5,
+#contact-form,
+#refer-ligitimacy,
+#refer-main,
+#updates-main {
+    font-family: Overpass, Dosis;
+}
+
+#contact p {
+    font-family: Overpass,
+        Dosis;
+}
+
+
+#cards .card h4 {
+    font-family: Overpass, Dosis;
+}
+
+#cards .card h5 {
+    color: #00A887;
+    font-family: Overpass,
+        Dosis;
+}
+
+#cards .card p {
+    font-size: 17px;
+    font-family: Overpass,
+        Dosis;
+    color: #757575;
+}
+
+#cards .card-content {
+    height: 250px;
+}
+
+
+#join-main {
+    background: #fafafa !important;
+}
+
+
+
+#main table {
+    width: 70%;
+}
+
+#main table th {
+    font-family: Overpass, Dosis;
+    font-size: 16px;
+}
+
+#main {
+    font-family: Overpass,
+        Dosis;
+
+}
+
+.container {
+    width: 80%;
+    position: relative;
+
+}
+
+
+
+
+#join-main i span {
+    font-size: 50px;
+    color: #069588;
+}
+
+
+#home-message {
+    font-family: 'Overpass, Dosis',
+        'Helvetica',
+        'sans-serif';
+    background-image:
+        linear-gradient(rgba(29, 169, 157, .8),
+            rgba(29, 169, 157, .8)),
+        url("../images/formbg.jpg");
+    background-repeat: no-repeat;
+}
+
+#home-message .card-panel {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home-message form .input-field {
+    padding-top: 15px;
+}
+
+#home-message {
+    color: white;
+}
+
+#home-message form {
+    width: 100%;
+}
+
+#home-message .input-field>label {
+    color: white !important;
+}
+
+#home-message textarea {
+    font-family: Overpass,
+        Dosis;
+    font-size: 15px;
+    color: white;
+}
+
+
+#main p,
+#main2 p,
+#intro-team p,
+#how-main p,
+#refer-main p,
+#incentiveplan-section p,
+#updates-main p {
+    font-family: Overpass, Dosis;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    text-align: justify;
+}
+
+#main2 h4,
+#intro-team h4,
+#how-main h4,
+#updates-main h4 {
+    font-family: Overpass, Dosis;
+}
+
+/* =====================Floating action button on updates ================================= */
+
+#updates-main .btn-floating {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    /* background-color: white; */
+
+}
+
+.zoom-btn img {
+    width: 100% !important;
+}
+
+#updates-main .fixed-action-btn {
+    float: right;
+    top: 30%;
+    position: -webkit-sticky;
+    position: sticky;
+
+    /*desired value*/
+    /* max-width: 100px; */
+}
+
+
+
+
+
+
+/*============================================== Navigation ================================================*/
+nav {
+    height: 100px;
+    /* border-bottom: 2px solid #009688; */
+    box-shadow: none !important;
+}
+
+nav ul li.active a {
+    color: #009688 !important;
+    background-color: white !important;
+
+}
+
+nav .section {
+    padding-top: 0px;
+}
+
+.brand-logo img {
+
+    width: 320px;
+}
+
+#nav-mobile {
+    padding-top: 10px;
+
+}
+
+/* Making first letter of the links capital letter */
+nav ul li.nav-item {
+    /* position: relative; */
+    /* text-transform: lowercase; */
+    color: gray;
+}
+
+nav ul li::first-letter {
+    /* position: relative; */
+    text-transform: uppercase;
+}
+
+/* End making first letters od the link capital letters */
+nav ul a {
+    color: gray;
+    font-weight: 480;
+}
+
+/* ================================================ Home ===================================================*/
+#main,
+#intro-team,
+#refer-ligitimacy {
+    background-color: white;
+}
+
+video {
+    width: 100%;
+    position: fixed;
+}
+
+
+/*================================================== Slider =================================================*/
+#edu-image {
+    height: 320px;
+}
+
+#home-slider {
+    font-family: Overpass, Dosis;
+}
+
+#home-slider .carousel {
+    position: relative;
+    bottom: 35px;
+}
+
+#home-slider .card .card-image .card-title {
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home-slider h4 {
+    font-family: Overpass,
+        Dosis;
+}
+
+#home-slider .carousel .carousel-item {
+    width: 500px;
+}
+
+/*============================================== Footer ====================================================*/
+#footer li {
+    display: inline-flex;
+    padding-bottom: 15px;
+}
+
+#footer i {
+    padding-right: 10px;
+}
+
+
+#footer {
+    font-family: Overpass,
+        Dosis;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: -22px;
+    z-index: 99;
+}
+
+#footer h4 {
+    font-family: Overpass, Dosis;
+    font-size: 16px;
+    color: white !important;
+}
+
+#footer {
+    font-family: Overpass,
+        Dosis;
+}
+
+
+.contact-footer {
+    position: relative;
+    left: 9% !important;
+}
+
+#bottom-bar {
+    background-color: red;
+}
+
+
+
+/* ======================================= Updates ======================================================== */
+
+#updates-main img {
+    width: 80%;
+}
+
+#updates-main h5 {
+    margin-top: 0px;
+    font-size: 19px;
+}
+
+
+
+
+/* ============================================ Media Queries ============================================= */
+/* Mobile phone */
+@media only screen and (max-width: 720px) {
+
+    .show-table {
+        display: block;
+    }
+
+    #table0,
+    #table1,
+    #table2,
+    #table3,
+    #table4,
+    #table5,
+    #table6 {
+        display: none;
+    }
+
+    #incentiveplan-section table {
+        width: 320px;
+    }
+
+    .contact-footer {
+        position: relative;
+        left: 0% !important;
+    }
+
+    #join-main td img {
+        position: relative;
+        top: -1px;
+    }
+
+    #edu-image {
+        height: 296px;
+    }
+
+    #home-slider .card .card-image .card-title {
+        bottom: 0px;
+    }
+
+
+    #main p,
+    #main2 p,
+    #intro-team p,
+    #how-main p,
+    #refer-main p,
+    #updates-main p {
+        text-align: left;
+    }
+
+
+    #home-message form {
+        height: 379px;
+    }
+
+    #main2 p,
+    #intro-team p,
+    #how-main p,
+    #refer-main p,
+    #updates-main p {
+        font-family: Overpass, Dosis;
+        color: #757575;
+        font-size: 16px;
+        text-align: left;
+    }
+
+
+    #main-how p {
+        font-family: Overpass, Dosis;
+        color: white;
+        font-size: 16px;
+        text-align: left;
+    }
+
+
+    #questions {
+        position: unset;
+        /* left: 12%; */
+    }
+
+    #footer {
+        color: white !important;
+        text-align: left;
+    }
+
+    #cards .card {
+        width: 75%;
+        position: relative;
+        left: 11%;
+    }
+
+
+    #main table {
+        width: 100%;
+    }
+
+    .parallax-container {
+        height: 195px;
+    }
+
+    .brand-logo img {
+        position: relative;
+        top: 15px;
+        width: 250px;
+    }
+
+    #home-slider .carousel .carousel-item {
+        width: 450px;
+    }
+
+
+}
+
+@media screen and (min-width: 1600px) {
+    .parallax-container {
+        height: 620px;
+    }
+
+
+
+
+    /* Making first letter of the links capital letter */
+    nav ul li.nav-item {
+
+        color: gray;
+    }
+
+    nav ul li::first-letter {
+        /* position: relative; */
+        text-transform: uppercase;
+    }
+
+    /* End making first letters od the link capital letters */
+    nav ul a {
+        color: gray;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 721px) and (max-width: 1029px) {
+    #incentiveplan-section table {
+        width: 90%;
+    }
+
+    .parallax-container {
+        height: 390px;
+    }
+
+}
+
+@media screen and (max-width: 1001px) and (min-width: px) {
+    #footer {
+        color: white !important;
+        text-align: left;
+    }
+
+    .contact-footer {
+        position: relative;
+        left: 0% !important;
+    }
+
+}
+
+/* laptop */
+
+@media screen and (min-width: 1124px) and (max-width:1600px) {
+    #updates-main .btn-floating {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+/* below 1k */
+@media screen and (max-width:999px) and (min-width:320px) {
+    #updates-main .btn-floating {
+        width: 50px;
+        height: 50px;
+    }
+
+    #updates-main .fixed-action-btn {
+        float: unset;
+        top: unset;
+        position: fixed;
+        right: 10px;
+        bottom: 23px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 997;
+    }
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
