@@ -376,15 +376,10 @@ nav .section {
     padding-top: 10px;
 
 }
-
-nav ul li.nav-item {
-
-    /* color: gray; */
-}
-
+/* 
 nav ul li::first-letter {
     text-transform: uppercase;
-}
+} */
 
 nav ul a {
     color: gray;
