@@ -18,5 +18,20 @@ document.addEventListener('DOMContentLoaded', function () {
     // //parallax
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems, {});
+    
+    let moreTables = document.querySelector("#more-tables");
+    let moreTablesBtn = document.querySelector("#more-tables-btn");
+
+    moreTablesBtn.addEventListener('click', () => {
+        if (moreTablesBtn.innerHTML === "Show all plans") {
+            moreTables.style.display = "inline-block";
+            moreTablesBtn.innerHTML = "Show less plans";
+        } else {
+            moreTablesBtn.innerHTML = "Show all plans";
+            moreTables.style.display = "none";
+
+        }
+    })
+
 
 });
