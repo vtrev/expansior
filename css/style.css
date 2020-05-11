@@ -1,6 +1,19 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Overpass:300,400,400i,600,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic); 
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
 /* todo cleanup */
 
 /*============================================ Global styles ==============================================*/
+
+
+
+.no-top-margin {
+    margin-top: 0;
+}
 
 
 .network-image img {
@@ -40,8 +53,8 @@
 }
 
 .members-image img {
-    max-height: 350px;
-    /* border: 2px solid #00A887; */
+    height: 60%;
+    width: 60%;
     border-radius: 50%;
 }
 
@@ -165,10 +178,10 @@ section {
     font-size: 23px;
 }
 
-#wecareaboutheading {
+/* #wecareaboutheading {
     position: relative;
     top: 15px;
-}
+} */
 
 .footer-bar-link {
     float: right;
@@ -430,7 +443,7 @@ video {
 
 #home-slider .carousel {
     position: relative;
-    bottom: 35px;
+    bottom: 70px;
 }
 
 #home-slider .card .card-image .card-title {
@@ -509,9 +522,11 @@ video {
 
 /* ============================================ Media Queries ============================================= */
 /* Mobile phone */
+
+
 @media only screen and (max-width: 720px) {
 
-    .show-table {
+    /* .show-table {
         display: block;
     }
 
@@ -527,7 +542,7 @@ video {
 
     #incentiveplan-section table {
         width: 320px;
-    }
+    } */
 
     .contact-footer {
         position: relative;
@@ -584,7 +599,6 @@ video {
 
     #questions {
         position: unset;
-        /* left: 12%; */
     }
 
     #footer {
@@ -611,6 +625,7 @@ video {
         position: relative;
         top: 15px;
         width: 250px;
+        right: 10%;
     }
 
     #home-slider .carousel .carousel-item {
@@ -625,24 +640,12 @@ video {
         height: 620px;
     }
 
-
-
-
     /* Making first letter of the links capital letter */
-    nav ul li.nav-item {
-
-        color: gray;
-    }
-
-    nav ul li::first-letter {
-        /* position: relative; */
-        text-transform: uppercase;
-    }
-
+   
     /* End making first letters od the link capital letters */
-    nav ul a {
+    /* nav ul a {
         color: gray;
-    }
+    } */
 }
 
 /* Tablet */
@@ -699,4 +702,3 @@ video {
 
 }
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
