@@ -77,16 +77,9 @@
     color: #00A887 !important;
 }
 
-/* #incentiveplan-section table,
-#incentiveplan-section td {
-    border-right: 1px solid black;
-    border: 1px solid black;
-} */
-
 
 #incentiveplan-section th,
 #incentiveplan-section td {
-    /* border-right: 1px solid black; */
     background-color: #00A887;
 }
 
@@ -102,9 +95,6 @@
 #incentiveplan-section tr td {
     color: grey;
     background-color: white;
-
-    /* border-right: 1px solid black;
-    background-color: #00A887; */
 }
 
 
@@ -178,10 +168,6 @@ section {
     font-size: 23px;
 }
 
-/* #wecareaboutheading {
-    position: relative;
-    top: 15px;
-} */
 
 .footer-bar-link {
     float: right;
@@ -351,8 +337,6 @@ tr {
     width: 100px;
     height: 100px;
     padding: 0;
-    /* background-color: white; */
-
 }
 
 .zoom-btn img {
@@ -364,20 +348,12 @@ tr {
     top: 30%;
     position: -webkit-sticky;
     position: sticky;
-
-    /*desired value*/
-    /* max-width: 100px; */
 }
-
-
-
-
 
 
 /*============================================== Navigation ================================================*/
 nav {
     height: 100px;
-    /* border-bottom: 2px solid #009688; */
     box-shadow: none !important;
 }
 
@@ -401,19 +377,15 @@ nav .section {
 
 }
 
-/* Making first letter of the links capital letter */
 nav ul li.nav-item {
-    /* position: relative; */
-    /* text-transform: lowercase; */
-    color: gray;
+
+    /* color: gray; */
 }
 
 nav ul li::first-letter {
-    /* position: relative; */
     text-transform: uppercase;
 }
 
-/* End making first letters od the link capital letters */
 nav ul a {
     color: gray;
     font-weight: 480;
