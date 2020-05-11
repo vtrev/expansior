@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 
-    let moreZoomText = document.querySelector("#more-incentives-text");
-    let moreZoomButton = document.querySelector("#readmore-incentives-btn");
+    let moreIncentivesText = document.querySelector("#more-incentives-text");
+    let moreIncentivesBtn = document.querySelector("#readmore-incentives-btn");
 
-    moreZoomButton.addEventListener('click', (button) => {
-        if (moreZoomButton.innerHTML === "Read more here") {
-            moreZoomText.style.display = "inline-block";
-            moreZoomButton.innerHTML = "Read less";
+    moreIncentivesBtn.addEventListener('click', (button) => {
+        if (moreIncentivesBtn.innerHTML === "Read more here") {
+            moreIncentivesText.style.display = "inline-block";
+            moreIncentivesBtn.innerHTML = "Read less";
         } else {
-            moreZoomButton.innerHTML = "Read more here";
-            moreZoomText.style.display = "none";
+            moreIncentivesBtn.innerHTML = "Read more here";
+            moreIncentivesText.style.display = "none";
 
         }
     })

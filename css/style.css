@@ -9,6 +9,15 @@
 /*============================================ Global styles ==============================================*/
 
 
+.incentive-table img{
+    width: 100%;
+}
+
+
+
+
+
+
 
 .no-top-margin {
     margin-top: 0;
@@ -515,7 +524,8 @@ video {
     #intro-team p,
     #how-main p,
     #refer-main p,
-    #updates-main p {
+    #updates-main p,
+    #incentiveplan-section p {
         text-align: left;
     }
 
