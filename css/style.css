@@ -1,8 +1,7 @@
-
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,700);
 @import url(https://fonts.googleapis.com/css?family=Overpass:300,400,400i,600,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic); 
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 
 /* todo cleanup */
@@ -376,6 +375,7 @@ nav .section {
     padding-top: 10px;
 
 }
+
 /* 
 nav ul li::first-letter {
     text-transform: uppercase;
@@ -488,28 +488,8 @@ video {
 
 
 /* ============================================ Media Queries ============================================= */
-/* Mobile phone */
-
 
 @media only screen and (max-width: 720px) {
-
-    /* .show-table {
-        display: block;
-    }
-
-    #table0,
-    #table1,
-    #table2,
-    #table3,
-    #table4,
-    #table5,
-    #table6 {
-        display: none;
-    }
-
-    #incentiveplan-section table {
-        width: 320px;
-    } */
 
     .contact-footer {
         position: relative;
@@ -606,13 +586,6 @@ video {
     .parallax-container {
         height: 620px;
     }
-
-    /* Making first letter of the links capital letter */
-   
-    /* End making first letters od the link capital letters */
-    /* nav ul a {
-        color: gray;
-    } */
 }
 
 /* Tablet */
@@ -642,12 +615,26 @@ video {
 
 /* laptop */
 
-@media screen and (min-width: 1124px) and (max-width:1600px) {
+@media screen and (min-width: 996px) and (max-width:1600px) {
     #updates-main .btn-floating {
         width: 75px;
         height: 75px;
     }
 }
+
+@media screen and (min-width: 993px) and (max-width:1200px) {
+    .brand-logo img {
+        width: 285px;
+    }
+
+    nav ul a {
+        padding: 0 6px;
+    }
+}
+
+
+
+
 
 /* below 1k */
 @media screen and (max-width:999px) and (min-width:320px) {
@@ -668,4 +655,3 @@ video {
     }
 
 }
-
