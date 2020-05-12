@@ -74,15 +74,16 @@
     height: 35px;
 }
 
+#incentiveplan-section b,
 .expansior-green,
 #main b,
 #contact-form .input-field .prefix {
     color: #00A887 !important;
 }
-#incentiveplan-section b{
+
+#incentiveplan-section h6{
     font-weight: bolder;
 }
-
 
 
 #incentiveplan-section th,
