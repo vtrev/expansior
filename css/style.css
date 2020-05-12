@@ -11,6 +11,9 @@
 
 
 
+
+
+
 .incentive-table img{
     width: 100%;
 }
@@ -493,7 +496,10 @@ video {
     margin-top: 0px;
     font-size: 19px;
 }
-
+.updateBtn{
+    /* position: absolute;
+    bottom: 0; */
+}
 
 
 

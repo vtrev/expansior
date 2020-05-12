@@ -1,5 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+
+
+
+    function initCarousel(){
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, {
+        dist: 0,
+        fullWidth: true,
+        padding :10
+    });
+}initCarousel()
+
     var floatingBtn = document.querySelectorAll('.fixed-action-btn');
     var instances = M.FloatingActionButton.init(floatingBtn, {})
 
@@ -36,16 +48,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    let morestatsText = document.querySelector("#more-stats-text");
+    let morestatsText = document.querySelectorAll(".more-stats-text");
     let morestatsButton = document.querySelector("#readmore-stats");
 
     morestatsButton.addEventListener('click', (button) => {
         if (morestatsButton.innerHTML === "Read more here") {
-            morestatsText.style.display = "inline-block";
+            morestatsText.forEach(e => e.style.display = "inline-block");
+            document.querySelector("#stats-carousel").classList.remove("more-text"); 
+            //re initialize carousel
+            initCarousel()  
             morestatsButton.innerHTML = "Read less";
+            
         } else {
+            document.querySelector("#stats-carousel").classList.add("more-text");
             morestatsButton.innerHTML = "Read more here";
-            morestatsText.style.display = "none";
+            morestatsText.forEach( e  => e.style.display = "none");
 
         }
     })
