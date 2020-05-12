@@ -9,6 +9,8 @@
 /*============================================ Global styles ==============================================*/
 
 
+
+
 .incentive-table img{
     width: 100%;
 }
@@ -112,7 +114,8 @@ footer h4 {
 h4,
 h5,
 h6,
-#refer-ligitimacy {
+#refer-ligitimacy,
+.table-text {
     color: #757575;
 }
 
