@@ -3,14 +3,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    function initCarousel(){
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, {
-        dist: 0,
-        fullWidth: true,
-        padding :10
-    });
-}initCarousel()
+    function initCarousel() {
+        var elems = document.querySelector('#stats-carousel');
+        var instances = M.Carousel.init(elems, {
+            fullWidth: true,
+            padding: 0,
+            shift:0
+        });
+    }
+
+    var slide = () => {
+        let carousel = document.getElementById('stats-carousel');
+        instance = M.Carousel.getInstance(carousel);
+        instance.next();
+        setTimeout(slide, 2500);
+    }
 
     var floatingBtn = document.querySelectorAll('.fixed-action-btn');
     var instances = M.FloatingActionButton.init(floatingBtn, {})
@@ -54,15 +61,16 @@ document.addEventListener('DOMContentLoaded', function () {
     morestatsButton.addEventListener('click', (button) => {
         if (morestatsButton.innerHTML === "Read more here") {
             morestatsText.forEach(e => e.style.display = "inline-block");
-            document.querySelector("#stats-carousel").classList.remove("more-text"); 
-            //re initialize carousel
-            initCarousel()  
+            document.querySelector("#stats-carousel").classList.remove("more-text");
+            //re initialize carousel and slide it
+            initCarousel()
+            slide()
             morestatsButton.innerHTML = "Read less";
-            
+
         } else {
             document.querySelector("#stats-carousel").classList.add("more-text");
             morestatsButton.innerHTML = "Read more here";
-            morestatsText.forEach( e  => e.style.display = "none");
+            morestatsText.forEach(e => e.style.display = "none");
 
         }
     })

@@ -270,7 +270,7 @@ tr {
 }
 
 .container {
-    width: 80%;
+    width: 84%;
     position: relative;
 
 }
@@ -489,19 +489,17 @@ video {
 /* ======================================= Updates ======================================================== */
 
 #updates-main img {
-    width: 80%;
+    width: 100%;
 }
 
 #updates-main h5 {
     margin-top: 0px;
     font-size: 19px;
 }
-.updateBtn{
-    /* position: absolute;
-    bottom: 0; */
+
+#stats-carousel img{
+    width: 68%;
 }
-
-
 
 /* ============================================ Media Queries ============================================= */
 
