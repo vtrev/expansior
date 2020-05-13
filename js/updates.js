@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     morestatsButton.addEventListener('click', (button) => {
         if (morestatsButton.innerHTML === "Read more here") {
+            document.querySelector("#carousel-row").classList.remove("more-text");
             morestatsText.forEach(e => e.style.display = "inline-block");
             document.querySelector("#stats-carousel").classList.remove("more-text");
             //re initialize carousel and slide it
