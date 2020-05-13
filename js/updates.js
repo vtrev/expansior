@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 
+    var carousel = document.querySelector('#stats-carousel');
 
 
     function initCarousel() {
-        var elems = document.querySelector('#stats-carousel');
-        var instances = M.Carousel.init(elems, {
+        var instances = M.Carousel.init(carousel, {
             fullWidth: true,
             padding: 0,
             shift:0
@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     var slide = () => {
-        let carousel = document.getElementById('stats-carousel');
+        // let carousel = document.getElementById('stats-carousel');
         instance = M.Carousel.getInstance(carousel);
-        instance.next();
+        instance.next(); 
         setTimeout(slide, 2500);
     }
 
